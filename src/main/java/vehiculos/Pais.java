@@ -16,7 +16,7 @@ public class Pais {
 		this.nombre = nombre;
 	}
 	
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		ArrayList<Pais> listado = Vehiculo.arrayPaises;
 		int n = listado.size();
 	    int maxcount = 0;

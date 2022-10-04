@@ -26,7 +26,7 @@ public class Fabricante {
 		this.pais = pais;
 	}
 	
-	public Fabricante fabricaMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 		ArrayList<Fabricante> listado = Vehiculo.arrayFabricantes;
 		int n = listado.size();
 	    int maxcount = 0;
